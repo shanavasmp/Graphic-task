@@ -16,11 +16,9 @@
 
     .hero-left-section {
       width: 736px;
-      background-image: url('images/BG.png');
+      background-image: url('../images/Bg-first.png');
       background-size: cover;
       background-position: center;
-      border-radius: 1rem;
-      
       display: flex;
       flex-direction: column;
       justify-content: space-between;
@@ -30,7 +28,7 @@
       flex: 1;
       height: 100%;
       padding: 30px;
-      background-image: url('images/Mask group.png');
+      background-image: url('../images/Mask-group.png');
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
