@@ -1,0 +1,149 @@
+    body {
+      font-family: 'Nunito', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fff;
+    }
+
+    .hero-section {
+      display: flex;
+      flex-wrap: nowrap;
+      max-width: 1920px;
+      max-height: 1080px;
+      margin: 0 auto;
+      
+    }
+
+    .hero-left-section {
+      width: 736px;
+      background-image: url('images/BG.png');
+      background-size: cover;
+      background-position: center;
+      border-radius: 1rem;
+      
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .hero-right-section {
+      flex: 1;
+      height: 100%;
+      padding: 30px;
+      background-image: url('images/Mask group.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      font-weight: 700;
+    }
+    .hero{
+        padding-left: 50px;
+    }
+    .navbar-brand{
+        padding-left: 40px;
+    }
+    .stats-box {
+      background: #FF9257;
+      color: white;
+      padding-left: 40px;
+      
+    }
+
+    .rounded-image {
+      width: 60px;
+      height: 60px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-right: -25px;
+      
+    }
+
+    .btn-custom {
+      background-color: #2F584E;
+      color: #fff;
+      border-radius: 40px;
+      padding: 12px 30px;
+      font-size: 24px;
+    }
+
+    .side-images img {
+      object-fit: cover;
+      border-radius: 1rem;
+    }
+    .stats-box .col-4 {
+     border-left: 4px solid #F7BE2C;
+    }
+    .btn-icon{
+        width: 55px;
+      height: 55px;
+      background-color: #FF9257;
+      color: #fff;
+      font-size: 32px; 
+    }
+    .btn-play {
+      width: 66px;
+      height: 66px;
+      background-color: #FF9257;
+      color: #fff;
+      font-size: 32px;
+    }
+    .stats-box p{
+      font-size:24px ;
+    }
+    /* Responsive Styles */
+    @media (max-width: 1200px) {
+      .hero-section {
+        flex-direction: column;
+        height: auto;
+      }
+
+      .hero-left-section,
+      .hero-right-section {
+        width: 100%;
+        height: auto;
+      }
+
+      .hero-left-section {
+        
+        border-radius: 0;
+      }
+
+      .hero-right-section {
+        padding: 20px;
+      }
+
+      .hero h1 {
+        font-size: 2.2rem;
+      }
+
+      .side-images .col-6 {
+        padding: 5px;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .hero h1 {
+        font-size: 1.8rem;
+      }
+          .hero{
+        padding-left:10px;
+    }
+    .navbar-brand{
+        padding-left: 0px;
+    }
+      .btn-custom {
+        padding: 10px 20px;
+        font-size: 14px;
+      }
+
+      .stats-box h3 {
+        font-size: 1.5rem;
+      }
+      .stats-box p{
+        font-size: 14px;
+      }
+    }
